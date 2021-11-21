@@ -34,3 +34,5 @@ note.post('/', (req, res) => {
 note.delete('/:id', (req, res) => {
     
 })
+
+module.exports = notes;
