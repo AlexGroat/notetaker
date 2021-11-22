@@ -1,7 +1,8 @@
 // import required modules and packages
 const express = require('express');
-const app = express();
 const routeForNotes = require('./notes');
+
+const app = express();
 
 app.use('/notes', routeForNotes);
 
