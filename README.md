@@ -27,7 +27,7 @@ Email me
 Email me
     
 ## Questions 
-Questions can be directed to my Github (https://github.com/Alex Groat) or feel free to email me at a.groat.codes@gmail.com 
+Questions can be directed to my Github (https://github.com/AlexGroat) or feel free to email me at a.groat.codes@gmail.com 
 
 ## License 
 This application is covered under [MIT License](https://opensource.org/licenses/MIT) 
