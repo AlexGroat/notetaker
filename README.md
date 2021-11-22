@@ -12,7 +12,7 @@
 - [License](#License)
     
 ## Description
-Given front end starter code, this task is to create a note taking application and deploy it to heroku. It is a good way to demonstrate ones knowledge about express and to showcase said skills. 
+Given front end starter code, this task is to create a note taking application and deploy it to heroku. It is a good way to demonstrate ones knowledge about express and to showcase said skills.  The live application is deployed here: https://boiling-fortress-84877.herokuapp.com/
     
 ## Installation
 The user must clone the github repository to a local machine and run the NPM I command in an integrated terminal.
