@@ -1,8 +1,7 @@
 // import required modules and packages
-const { readFromFile, readAndAppend, writeToFile } =  require('../helpers/fsUtils');
-const { v4:uuidv4 } = require('uuid');
-
 const note = require('express').Router();
+const { readFromFile, readAndAppend, writeToFile } =  require('../helpers/fsUtils');
+const { v4: uuidv4 } = require('uuid');
 
 // GET method for retrieving all the notes in db.json
 note.get('/', (req, res) => {
