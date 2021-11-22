@@ -32,7 +32,17 @@ note.post('/', (req, res) => {
 
 // DELETE method (bonus) for removing a note from the array
 note.delete('/:id', (req, res) => {
-    
+    let idNote = req.params.id;
+
+    readFromFile('./db/db.json')
+    .then((data) => JSON.parse(data))
+    .then((json) => {
+        const noteIndex = json.filter((note) => note.id !== idNote);
+
+        writeToFile('./db/db.json', noteIndex);
+
+    res.json(`The selected ${idNote} has been removed.`);
+    });
 })
 
 module.exports = notes;
