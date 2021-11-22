@@ -42,6 +42,6 @@ note.delete('/:id', (req, res) => {
 
     res.json(`The selected ${idNote} has been removed.`);
     });
-})
+});
 
-module.exports = notes;
+module.exports = note;
