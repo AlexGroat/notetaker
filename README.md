@@ -19,6 +19,13 @@ The user must clone the github repository to a local machine and run the NPM I c
     
 ## Usage 
 The user will be directed to the homepage of the application. Click get started and it will redirect to the notes page where you can create new notes and delete old unwanted notes.
+
+## Screenshots
+
+![boiling-fortress-84877 herokuapp com_notes](https://user-images.githubusercontent.com/88314794/142822795-941703df-10a1-41b4-8779-9862575ee4bc.png)
+
+
+![boiling-fortress-84877 herokuapp com_](https://user-images.githubusercontent.com/88314794/142822849-80304d51-3345-4445-b869-71d1f2213f3a.png)
         
 ## Contributions
 Email me
